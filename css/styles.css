@@ -1,6 +1,6 @@
 
 .body{
-    font-family:'Roboto','Raleway';
+    font-family:'Roboto','Raleway','Arial', sans-serif;
     width: 1600px;
     margin: 0 auto;
     
@@ -11,10 +11,10 @@
     width: 100%;
     height: 80px;
     background: white;
-    font-style: normal;
+    font-style: 16px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 1;
     letter-spacing: 0.02em;
     color: #212121;
     display: flex;
@@ -25,10 +25,10 @@
     margin: 24px 93px 25px 215px;
     display: block;
     font-family: 'Raleway';
-    font-style: normal;
+    font-style: 21.85px;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     
 }
 .logo a{
@@ -42,7 +42,7 @@
 .navigation {
     display: flex;
     list-style-type:none;
-    margin-right: 280px;
+    margin-right: 150px;
 }
 .navigation-link {
     color: #212121;
@@ -50,9 +50,13 @@
     margin-right: 50px;
     
 }
-.navigation-link:hover {
+.navigation-link:hover,
+.navigation-link:hover{
     color: #2196F3;
     display:inline-block;
+}
+.navigation-link-studio{
+    color: #2196F3;
 }
       /* pages */
       .pages {
@@ -91,10 +95,10 @@
 
      }
      h1 {
-        font-style: black;
+        font-style: 32.35px;
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -113,7 +117,7 @@
          border-radius: 5px;
      }
      .button-text{
-        font-style: Bold;
+        font-style: 8.56px;
         font-size: 18px;
      }
      /* section2-peculiarities */
@@ -126,10 +130,10 @@
      }
      }
      .characteristic{
-        font-style: normal;
+        font-style: 8.19px;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         letter-spacing: 0.03em;
         color: #757575;
         list-style-type:none;
@@ -139,10 +143,9 @@
      .characteristic-subtitle{
          color: #212121;
          text-transform: uppercase;
-        font-style: Bold;
+        font-style: 9.86px;
         font-size: 14px;
-        line-height: 16px;
-        line-height: 100%;
+        line-height: 1.42;
         align-items: left;
         vertical-align: Top;
         letter-spacing: 3%;
@@ -150,10 +153,9 @@
      }
      .characteristic-text{
          color: #757575;
-        font-style: 'Regular';
+        font-style: 8.18px;
         font-size: 14px;
-        line-height: 24px;
-        line-height: 146%;
+        line-height: 1.71;
         align-items: Left;
         vertical-align: Top;
         initial-letter-align: 3%;
@@ -164,10 +166,9 @@
      /* section3-processes */
      .directions-title{
          color: #212121;
-        font-style: Bold;
+        font-style: 21.69px;
         font-size: 36px;
-        line-height: 42px;
-        line-height: 100%;
+        line-height: 1.66;
         align-items: left;
         vertical-align: Top;
         letter-spacing: 3%;
@@ -193,10 +194,9 @@
      }
      .team-title{
          color: #212121;
-         font-style: Bold;
+         font-style: 21.69px;
          font-size: 36px;
-         line-height: 42px;
-         line-height: 100%;
+         line-height: 1.66;
          align-items: center;
          vertical-align: Top;
          letter-spacing: 3%;
@@ -217,10 +217,9 @@
          display: flex;
          justify-content: center;
          color: #212121;
-         font-style: Medium;
+         font-style: 13.44px;
         font-size: 16px;
-        line-height: 19px;
-        line-height: 100%;
+        line-height: 1.19;
         align-items: Center;
         vertical-align: Top;
         letter-spacing: 3%;
@@ -231,8 +230,7 @@
          justify-content: center;
          color: #757575;
          font-size: 16px;
-         line-height: 19px;
-         line-height: 100%;
+         line-height: 1.19;
          align-items: Center;
          vertical-align: Top;
          letter-spacing: 3%;
@@ -249,9 +247,7 @@ footer{
 .adress{
     margin-left: 180px;
     list-style-type:none;
-    font-size: 14px;
-    line-height: 24px;
-    line-height: 146%;
+    line-height: 1.71;
    align-items: Left;
    letter-spacing: 3%;
     
@@ -259,13 +255,134 @@ footer{
 .adress-link{
     text-decoration: none;
     color:#757575;
-    font-style:normal;
-   font-size: 14px;
-   line-height: 24px;
+   line-height: 1.71x;
   
+}
+.adress-contact:hover,
+.adress-contact:focus
+{
+    color: #2196F3;
 }
 .adress-dot{
     color:#F5F4FA;
 }
+.logo-footer a{
+    color: white;
+    margin: 24px 93px 25px 215px;
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+}
+
+/* -------------portfolio--------------- */
+.portfolio-main{
+
+}
+.main-section{
+    margin-top: 94px;
+}
+.navigation-link-portfolio{
+    color: #2196F3;
+}
+
+.button-list{
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    
+}
+.btn{
+    background-color: #F5F4FA;
+    cursor: pointer;
+    color:#212121;
+    border: 0;
+    border-radius: 5px;
+    height: 35px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.btn:hover,
+.btn:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;   
+}
+.btn-title{
+    justify-content: center;
+    font-style: 9.88px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.62;
+    vertical-align: Top;
+    letter-spacing: 3%;
+    fill-opacity: solid;
+}
+.btn-title-all{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    width: 73px;
+   
+}
+/* images */
+.container{
+    margin-top: -50px;
+    
+}
+.portfolio-list{
+    list-style-type:none;
+    column-count: 3;
+    width: 1220px;
+    margin-left: 200px;
+}
+
+.portfolio-img{
+    width: 370px;
+}
+.portfolio-items{
+    width: 370px;
+    height: 404px;
+    box-shadow: 1px 1px 5px #757575;
+    margin-bottom: 30px;
+}
+.portfolio-title{
+    font-style: 9px;
+    font-size: 18px;
+    line-height: 2;
+    align-items: left;
+    vertical-align: Top;
+    letter-spacing: 6%;
+    fill-opacity: solid;
+    color: #212121;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-right: 350px;
+    margin-left: 24px;
+}
+
+.portfolio-text{
+    color: #757575;
+    font-style: 8.56px;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: Left;
+    vertical-align: Top;
+    letter-spacing: 3%;
+    margin-left: 24px;
+    display: flex;
+}
+.portfolio-main{
+    display: none;
+    font-style: 8.56px;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+
 
 
