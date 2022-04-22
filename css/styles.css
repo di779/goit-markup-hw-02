@@ -293,6 +293,7 @@ footer{
     display: flex;
     justify-content: center;
     list-style-type:none;
+    margin-bottom: 90px;
     
 }
 .btn{
@@ -378,9 +379,7 @@ footer{
 }
 .portfolio-main{
     display: none;
-    font-style: 8.56px;
-    font-size: 16px;
-    line-height: 1.87;
+    
 }
 
 
