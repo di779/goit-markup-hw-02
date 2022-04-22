@@ -48,6 +48,8 @@
     color: #212121;
     text-decoration: none;
     margin-right: 50px;
+    font-size: 14px;
+    font-weight: 500;
     
 }
 .navigation-link:hover,
@@ -75,6 +77,8 @@
         text-decoration: none;
         color: #757575;
         margin-right: 50px;
+        font-size: 15px;
+        font-weight: 500;
 
      }
      .contacts:hover{
@@ -146,9 +150,7 @@
         font-style: 9.86px;
         font-size: 14px;
         line-height: 1.42;
-        align-items: left;
         vertical-align: Top;
-        letter-spacing: 3%;
         
      }
      .characteristic-text{
@@ -210,6 +212,7 @@
          margin-right: 30px;
          background-color: #FFFFFF;
          box-shadow: 1px 1px 5px #757575;
+         border-radius: 5px;
     
          
      }
@@ -254,8 +257,10 @@ footer{
 }
 .adress-link{
     text-decoration: none;
-    color:#757575;
-   line-height: 1.71x;
+    font-style: normal;
+    color:rgba(255, 255, 255, 0.6);
+    line-height: 1.71x;
+    font-size: 14px;
   
 }
 .adress-contact:hover,
@@ -263,18 +268,19 @@ footer{
 {
     color: #2196F3;
 }
-.adress-dot{
-    color:#F5F4FA;
+.adress-dot {
+    color:#FFFFFF;
+    
 }
 .logo-footer a{
     color: white;
     margin: 24px 93px 25px 215px;
     display: block;
     font-family: 'Raleway';
-    font-style: normal;
+    font-style: 13.54px;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.92;
     text-decoration: none;
 }
 
@@ -316,13 +322,11 @@ footer{
 }
 .btn-title{
     justify-content: center;
-    font-style: 9.88px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.62;
-    vertical-align: Top;
-    letter-spacing: 3%;
-    fill-opacity: solid;
+    color: #212121;
+    font-family: 'Roboto';
 }
 .btn-title-all{
     background-color: #2196F3;
@@ -331,7 +335,7 @@ footer{
    
 }
 /* images */
-.container{
+.portfolio-markup{
     margin-top: -50px;
     
 }
@@ -348,7 +352,7 @@ footer{
 .portfolio-items{
     width: 370px;
     height: 404px;
-    box-shadow: 1px 1px 5px #757575;
+    box-shadow: 1px 1px 5px #EEEEEE;
     margin-bottom: 30px;
 }
 .portfolio-title{
@@ -370,7 +374,8 @@ footer{
     color: #757575;
     font-style: 8.56px;
     font-size: 16px;
-    line-height: 30px;
+    font-weight: 400;
+    line-height: 1.87;
     align-items: Left;
     vertical-align: Top;
     letter-spacing: 3%;
@@ -381,7 +386,16 @@ footer{
     display: none;
     
 }
-
+.adress-contact {
+    color:rgba(255, 255, 255, 0.6);
+    font-style:normal;
+    font-size: 14px;
+    line-height: 1.71;
+    align-items: left;
+    vertical-align: top;
+    letter-spacing: 3%;
+        
+}
 
 
 
